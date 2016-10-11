@@ -1,0 +1,1 @@
+Can specify custom color, cus you kool. The custom color has to be in a String format and it must follow the Syntax rules of [colors](https://github.com/Marak/colors.js)

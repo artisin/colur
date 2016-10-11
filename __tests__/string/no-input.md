@@ -1,0 +1,1 @@
+If there is no input it should still run with an empty string

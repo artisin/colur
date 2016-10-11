@@ -1,0 +1,1 @@
+Should be able to specify console type through the `consoleType` option prop

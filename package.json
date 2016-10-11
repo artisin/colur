@@ -1,0 +1,44 @@
+{
+  "name": "colur",
+  "version": "0.0.1",
+  "description": "A kool colur logger",
+  "author": "te schult </artisin> ---> te.artisin@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "test": "webpack && mocha __tests__/run.test.js --colors --bail --compilers js:babel-core/register",
+    "test:debug": "iron-node node_modules/mocha/bin/_mocha __tests__/run.test.js --colors --bail --compilers js:babel-core/register",
+    "dev": "webpack --watch",
+    "prepublish": "npm run test"
+  },
+  "main": "dist/colur.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artisin/colur"
+  },
+  "bugs": {
+    "url": "https://github.com/artisin/colur/issues"
+  },
+  "keywords": [
+    "logger",
+    "colur",
+    "artisin",
+    "te"
+  ],
+  "dependencies": {
+    "colors": "1.1.2",
+    "lodash.reduce": "4.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-node-externals": "1.5.4",
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "mocha": "^3.1.0",
+    "should": "^11.1.0",
+    "glob-all": "3.1.0",
+    "lodash": "^4.16.4"
+  },
+  "preferGlobal": false,
+  "private": false
+}
