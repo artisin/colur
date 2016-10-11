@@ -1,6 +1,7 @@
 # colur: a kool logger
 
 [![wercker status](https://app.wercker.com/status/a432f5dddbb23e0ee1680892b3f511ef/s/master "wercker status")](https://app.wercker.com/project/byKey/a432f5dddbb23e0ee1680892b3f511ef)
+[![npm version](http://img.shields.io/npm/v/colur.svg)](http://img.shields.io/npm/v/colur.svg)
 
 All right, it is not _that_ kool, but it is a stylized logger with [colors](https://www.npmjs.com/package/colors)! I needed a simple stylized colur logger for my test’s and other command console activity. PS. This is a node thang.
 
