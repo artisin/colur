@@ -7,7 +7,7 @@ const test = colur('Oh fuck, an Error!', {
 });
 
 module.exports = {
-  exp: function () {
-    return (test).length.should.be.exactly(102);
+  exp: function (should) {
+    should.equal(test.length, 102);
   }
 };

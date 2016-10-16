@@ -18,10 +18,10 @@ for (let i = 0; i < 25; i++) {
 
 
 module.exports = {
-  exp: function () {
-    return resLength.forEach(function (val) {
+  exp: function (should) {
+    resLength.forEach(function (val) {
       val %= 3;
-      (val).should.be.exactly(0);
+      should.equal(val, 0);
     });
   }
 };

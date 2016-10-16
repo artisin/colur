@@ -4,7 +4,7 @@ const path  = require('path'),
 const test = colur();
 
 module.exports = {
-  exp: function () {
-    return (test).length.should.be.exactly(48);
+  exp: function (should) {
+    should.equal(test.length, 48);
   }
 };

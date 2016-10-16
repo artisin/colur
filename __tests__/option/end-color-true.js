@@ -6,7 +6,7 @@ const test = colur('End Him!', {
 });
 
 module.exports = {
-  exp: function () {
-    return (test).length.should.be.exactly(66);
+  exp: function (should) {
+    should.equal(test.length, 66);
   }
 };

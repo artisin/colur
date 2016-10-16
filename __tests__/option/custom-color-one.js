@@ -7,7 +7,7 @@ const test = colur('Cool Custom Italic Colur!!!', {
 
 
 module.exports = {
-  exp: function () {
-    return (test).length.should.be.exactly(120);
+  exp: function (should) {
+    should.equal(test.length, 120);
   }
 };

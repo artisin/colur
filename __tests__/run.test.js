@@ -17,7 +17,7 @@ const addTest = function (testFile) {
       const {exp, res} = require('.' + testFile.slice(11));
       //if no result assume expected is a assertion funk
       if (!res) {
-        exp();
+        exp(should);
       }else {
         (exp).should.equal(res);
       }
