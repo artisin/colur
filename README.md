@@ -24,7 +24,8 @@ All right, it is not _that_ kool, but it is a stylized logger with [colors](http
     * Can specify a custom color from the [colors](https://www.npmjs.com/package/colors) library. If you mess up and specify a color that does not exist, then it defaults to the default Green/White color.
 + `<option>.endColor` -> `Boolean => true`
     * Use the end color which is `bgBlue.white.bold`.
-+ `<option>.endColor` -> `Boolean => true`
+    * Alias: `end`
++ `<option>.startColor` -> `Boolean => true`
     * Use the start color which is also the default color of `bgGreen.white.bold`.
 + `<option>.consoleType` -> `String`
     * Can specify the console type, the default is `info`.
