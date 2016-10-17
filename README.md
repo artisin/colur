@@ -32,7 +32,8 @@ All right, it is not _that_ kool, but it is a stylized logger with [colors](http
     * Omit the `console` part, just include the modifier like `error`.
 + `<option>.strReturn` -> `Boolean => true`
     * Does not invoke `console` and just returns the stylized logger string.
-
++ `<option>.error` -> `Boolean => true`
+    * A preset that sets the `console` to `error` and uses the color of `bgRed.white.bold`
 
 ### Preview
 
