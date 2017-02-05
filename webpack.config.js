@@ -17,6 +17,7 @@ module.exports = {
       loaders: ['babel-loader']
     }]
   },
+  devtool: '#source-map',
   target: 'node',
   externals: [nodeExternals()]
 };

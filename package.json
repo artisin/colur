@@ -1,13 +1,14 @@
 {
   "name": "colur",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A kool colur logger",
-  "author": "te schult </artisin> ---> te.artisin@gmail.com",
+  "author": "te schultz",
   "license": "MIT",
   "scripts": {
     "test": "webpack && mocha __tests__/run.test.js --colors --bail --compilers js:babel-core/register",
     "test:debug": "iron-node node_modules/mocha/bin/_mocha __tests__/run.test.js --colors --bail --compilers js:babel-core/register",
     "dev": "webpack --watch",
+    "build": "webpack",
     "prepublish": "npm run test"
   },
   "main": "dist/colur.js",
