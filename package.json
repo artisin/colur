@@ -8,6 +8,7 @@
     "test": "webpack && mocha __tests__/run.test.js --colors --bail --compilers js:babel-core/register",
     "test:debug": "iron-node node_modules/mocha/bin/_mocha __tests__/run.test.js --colors --bail --compilers js:babel-core/register",
     "dev": "webpack --watch",
+    "build": "webpack",
     "prepublish": "npm run test"
   },
   "main": "dist/colur.js",
